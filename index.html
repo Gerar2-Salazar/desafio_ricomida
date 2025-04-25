@@ -1,21 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js" defer></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Catálogo de Productos</title>
+  <!-- 1. Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"rel="stylesheet">
+  <!-- 4. Nuestro script -->
+  <script src="assets/js/main.js" defer></script>
+  <!-- 2. Estilos propios -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
-    <button id=#btn>button</button>
-    <div class="hover">hover</div>
-
-    <h2> hola</h2>
-
-    <div id=""contenido" style="background-color: black; color: white ;">
-        contenido cambia color
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg" style="background-color: black"; style="color:white"; >
+    <div class="container-fluid">
+      <a class="navbar-brand ps-5 ms-5 " href="#">Ricomida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link color" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#">Producto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#">Contacto</a>
+       </div>    
+      </div>
     </div>
+</nav>
+<section>
+  <div class="card mb-3 ps-5 py-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="assets/img/principal.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h5>
+          <p class="card-text">110 MIN / 6 A 8 PORCIONES</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+  <div class="hover">hover</div>
+
+  <h2>ingredientes</h2>
+  <h2>preparacion</h2>
+
+
+
+  <button id="btntoggle">mostrar/ocultar</button>
+
+  <div id="contenido" style="background-color: black; color: white;">
+    Este contenido se muestra y oculta con toggle de jQuery.
+  </div>
+
+
 </body>
 </html>
