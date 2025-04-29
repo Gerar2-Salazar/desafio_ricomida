@@ -2,20 +2,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Raleway:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#div {
+    justify-content: end;
+    padding-right: 50px;
+    
 }
 
-.navbar-brand {
-    color:white;
+#a {
     font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px
+    font-size: 37px;
+    text-align: center;
+    padding-left: 50px;
 }
 
-.nav-link {
-    color:white;
+.container {
+    font-family: "Cabin", sans-serif
+    padding: 30px;
+    padding-top: 0px;
+    text-align: left;
+    
+   
 }
+
+.col {
+    text-align: right;
+    font-family: "Cabin", sans-serif;
+    padding: 30px;
+}
+
+#h1 {
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Cabin", sans-serif;
+    font-style: bold;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #373A3C;
+}
+
+.carousel-indicators .active {
+    background-color: #000000;
+}
+
+.card {
+    font-family: "Cabin", sans-serif;
+    text-align: left;
+}
+
+.card-body1 {
+    background-color: #DC3545;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    padding: 40px;
+}
+
+.card-title0 {
+    font-size: 40px;
+    color: #ffff;
+}
+
+.card-title1 {
+    font-size: 20px;
+    color: #ffff;
+
+}
+
+.card-title2 {
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    color: #ffff;
+    
+}
+
+.footer {
+    font-family: "Lobster", sans-serif;
+    font-size: 37px;
+}
+
+.d-grid {
+    padding-bottom: 100px;
+}
+
+#button1 {
+    padding-left: 50px;
+}
+
