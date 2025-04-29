@@ -5,7 +5,6 @@
 #div {
     justify-content: end;
     padding-right: 50px;
-    
 }
 
 #a {
@@ -19,9 +18,7 @@
     font-family: "Cabin", sans-serif
     padding: 30px;
     padding-top: 0px;
-    text-align: left;
-    
-   
+    text-align: left; 
 }
 
 .col {
@@ -67,14 +64,12 @@
 .card-title1 {
     font-size: 20px;
     color: #ffff;
-
 }
 
 .card-title2 {
     font-size: 20px;
     font-family: "Lobster", sans-serif;
-    color: #ffff;
-    
+    color: #ffff;  
 }
 
 .footer {
@@ -83,7 +78,7 @@
 }
 
 .d-grid {
-    padding-bottom: 100px;
+    padding-bottom: 40px; 
 }
 
 #button1 {
